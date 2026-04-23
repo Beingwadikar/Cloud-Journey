@@ -1,52 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Cloud Journey</title>
-<link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Journey</title>
+
+    <!-- IMPORTANT CSS LINK -->
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
-<div class="container">
+<div class="glass-wrapper">
 
-    <img src="profile_pic.jpeg" alt="profile" class="profile">
+    <header>
+        <div class="avatar">
+            <img src="./profile_pic.jpeg" alt="Shrikant">
+        </div>
 
-    <h2>Hi, I'm Shrikant</h2>
-    <p class="title">learning cloud (beginner)</p>
+        <h1>Shrikant Wadikar</h1>
+        <p>Learning Cloud Engineering</p>
+    </header>
 
-    <div class="box">
-        <p>trying to understand AWS...</p>
-        <p>breaking things... fixing again 😅</p>
+    <div class="terminal">
+        <div class="terminal-header">
+            <span class="btn red"></span>
+            <span class="btn yellow"></span>
+            <span class="btn green"></span>
+        </div>
+
+        <div class="terminal-body">
+            <p><span class="prompt">$</span> current_focus</p>
+            <p class="output">Networking & AWS Basics</p>
+
+            <p><span class="prompt">$</span> status</p>
+            <p class="output">Learning in progress...</p>
+        </div>
     </div>
 
-    <p class="about">
-        I started learning AWS recently. Right now I am trying to understand IAM, VPC and networking step by step.
-    </p>
+    <div class="bio-content">
+        <p class="about-me">
+            Hi, I'm learning Cloud and DevOps. 
+            Started with AWS basics and now trying to understand networking step by step.
+        </p>
 
-    <div class="learning">
-        <p><b>what i am learning:</b></p>
-        <ul>
-            <li>aws iam</li>
-            <li>vpc basics</li>
-            <li>linux commands</li>
-            <li>static hosting</li>
-        </ul>
+        <div class="learning-grid">
+            <div class="goal-card">
+                <small>Current</small>
+                <p>IAM & VPC</p>
+            </div>
+
+            <div class="goal-card">
+                <small>Next</small>
+                <p>Deploy on EC2</p>
+            </div>
+        </div>
     </div>
 
-    <div class="fun">
-        <p>last updated: still learning 😅</p>
-        <p>current problem: understanding VPC</p>
+    <div class="proof-footer">
+        deployed using github pages
     </div>
 
-    <p class="proof">
-        hosted using github pages (learning aws s3 side by side)
-    </p>
-
-    <a href="https://www.linkedin.com/in/shrikant-wadikar-cloud" target="_blank" class="btn">
-        connect on linkedin
-    </a>
+    <div class="action-area">
+        <a href="https://www.linkedin.com/in/shrikant-wadikar-cloud" class="main-btn" target="_blank">
+            connect on linkedin
+        </a>
+    </div>
 
 </div>
 
